@@ -1,4 +1,4 @@
-package com.rojin.biju.wisdom_pet;
+package com.rojin.biju.wisdompet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
