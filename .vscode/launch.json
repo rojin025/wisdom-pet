@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "WisdomPetApplication",
+      "request": "launch",
+      "mainClass": "com.rojin.biju.wisdompet.WisdomPetApplication",
+      "projectName": "wisdom-pet"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "415 ts-node debug Launch Program",
+      "runtimeArgs": ["-r", "ts-node/register", "--loader", "ts-node/esm"],
+      "skipFiles": ["<node_internals>/**"],
+      "program": "${file}",
+      "outFiles": ["${workspaceFolder}/**/*.js"],
+      "sourceMaps": true,
+      "resolveSourceMapLocations": [
+        "${workspaceFolder}/**",
+        "!**/node_modules/**"
+      ]
+    }
+  ]
+}

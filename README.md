@@ -2,6 +2,19 @@
 
 A Spring Boot application integrated with a React frontend for serving a modern web UI.
 
+# Table of Contents
+
+[Setup Instructions](#setup-instructions)
+
+# Project Documentation
+
+Welcome to the documentation for Wisdom Pet. Below is a guide to the different sections of the project:
+
+- [Error Handling](docs/ErrorHandling.md)
+- [Service Layer Implementation](docs/ServiceLayer.md)
+- [Contributing Guide](docs/Contributing.md)
+- [Deployment Instructions](docs/Deployment.md)
+
 ## Project Structure
 
 - Backend: Spring Boot (Java)
@@ -15,7 +28,7 @@ Ensure the following are installed on your system:
 - Node.js v19.6.1+
 - Maven 3.6+
 
-## Steps to Set Up and Run the Application
+# Setup instructions
 
 1. Clone the Repository
 
@@ -76,5 +89,7 @@ The following steps are automated by Maven:
 ```bash
 npm start
 ```
+
+Next Step: [Error Handling](docs/ErrorHandling.md)
 
 `Happy Coding :)`
