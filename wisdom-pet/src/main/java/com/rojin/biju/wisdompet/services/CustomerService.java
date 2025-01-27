@@ -21,7 +21,7 @@ public class CustomerService {
         this.customerRepository = customerRepository;
     }
 
-    public List<Customer> getAllCustomer(String filterEmail){
+    public List<Customer> getCustomers(String filterEmail){
         List<Customer> customers = new ArrayList<>();
 
         if(StringUtils.hasLength(filterEmail)){

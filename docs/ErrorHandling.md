@@ -59,10 +59,10 @@ This guide outlines the initial steps for setting up a Spring Boot project, focu
 
 ---
 
-## Next Steps
+## Next Step
 
 - Build a **service layer** to handle data access and wrap it for web services consumption.
 
-- [Service Layer Implementation](ServiceLayer.md)
+[Next Step: Service Layer Implementation](ServiceLayer.md)
 
 `Happy Coding :)`

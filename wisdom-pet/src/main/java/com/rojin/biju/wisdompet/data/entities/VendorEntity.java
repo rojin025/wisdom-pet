@@ -11,27 +11,27 @@ import lombok.Data;
 import lombok.ToString;
 
 @Entity
-@Table(name = "CUSTOMERS")
+@Table(name = "VENDORS")
 @Data
 @ToString
-public class CustomerEntity {
+public class VendorEntity {
     @Id
-    @Column(name="CUSTOMER_ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="VENDOR_ID")
     private long id;
+
+    @Column(name="NAME")
+    private String name;
     
-    @Column(name = "FIRST_NAME")
-    private String firstName;
+    @Column(name="CONTACT")
+    private String contact;
+    
+    @Column(name="PHONE")
+    private String phone;
 
-    @Column(name="LAST_NAME")
-    private String lastName;
-
-    @Column(name="EMAIL")
+    @Column(name = "EMAIL")
     private String email;
 
-    @Column (name="PHONE")
-    private String phone;
-    
-    @Column (name="ADRESS")
+    @Column(name = "ADDRESS")
     private String address;
 }

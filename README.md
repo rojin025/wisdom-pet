@@ -12,6 +12,7 @@ Welcome to the documentation for Wisdom Pet. Below is a guide to the different s
 
 - [Error Handling](docs/ErrorHandling.md)
 - [Service Layer Implementation](docs/ServiceLayer.md)
+- [Entity, Models, Repo and Service layers](docs/EMRSLayer.md)
 - [Contributing Guide](docs/Contributing.md)
 - [Deployment Instructions](docs/Deployment.md)
 

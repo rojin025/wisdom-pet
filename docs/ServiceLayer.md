@@ -174,3 +174,7 @@ public void deleteCustomer(Long id) {
 ### **Extensibility**
 
 - Easy to add more business logic or additional features in the future.
+
+## Next Step
+
+[Next Step: Entity, Models, Repo and Service layers](EMRSLayer.md)
