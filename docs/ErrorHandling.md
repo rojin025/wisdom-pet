@@ -2,6 +2,8 @@
 
 This guide outlines the initial steps for setting up a Spring Boot project, focusing on error handling and model creation for a web service.
 
+[Back to Main README](../README.md)
+
 ---
 
 ## Steps to Set Up the Project
@@ -60,5 +62,7 @@ This guide outlines the initial steps for setting up a Spring Boot project, focu
 ## Next Steps
 
 - Build a **service layer** to handle data access and wrap it for web services consumption.
+
+- [Service Layer Implementation](ServiceLayer.md)
 
 `Happy Coding :)`

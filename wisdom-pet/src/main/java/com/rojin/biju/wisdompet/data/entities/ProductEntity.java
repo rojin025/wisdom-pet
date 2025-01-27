@@ -1,36 +1,33 @@
 package com.rojin.biju.wisdompet.data.entities;
 
+import java.math.BigDecimal;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+
 import lombok.Data;
 import lombok.ToString;
 
 @Entity
-@Table(name = "CUSTOMERS")
+@Table(name="PRODUCTS")
 @Data
 @ToString
-public class CustormerEntity {
+public class ProductEntity {
     @Id
-    @Column(name="CUSTOMER_ID")
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "PRODUCT_ID")
     private long id;
+
+    @Column(name="NAME")
+    private String name;
+
+    @Column(name="PRICE")
+    private BigDecimal price;
     
-    @Column(name = "FIRST_NAME")
-    private String firstName;
-
-    @Column(name="LAST_NAME")
-    private String lastName;
-
-    @Column(name="EMAIL")
-    private String email;
-
-    @Column (name="PHONE")
-    private String phone;
-    
-    @Column (name="ADRESS")
-    private String address;
+    @Column(name="VENDOR_ID")
+    private long vendorId;
 }
