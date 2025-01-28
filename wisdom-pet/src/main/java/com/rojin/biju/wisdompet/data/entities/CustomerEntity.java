@@ -32,6 +32,6 @@ public class CustomerEntity {
     @Column (name="PHONE")
     private String phone;
     
-    @Column (name="ADRESS")
+    @Column (name="ADDRESS")
     private String address;
 }
